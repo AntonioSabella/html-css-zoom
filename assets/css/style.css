@@ -1,0 +1,18 @@
+:root {
+    --darker: black;
+    --dark: grey;
+    --light: lightgray;
+    --lighter: white;
+    --share: green;
+    --text: red;
+}
+
+/* #region Common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion Common */
