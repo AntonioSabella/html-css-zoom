@@ -1,9 +1,9 @@
 :root {
     --darker: black;
-    --dark: rgb(104, 103, 103);
+    --dark: rgb(68, 67, 67);
     --light: lightgray;
     --lighter: white;
-    --share: green;
+    --share: rgb(2, 150, 2);
     --text: red;
 }
 
@@ -18,6 +18,12 @@
 header {
     background-color: var(--darker);
     height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lighter);
+    margin-left: 10px;
 }
 
 
@@ -41,6 +47,11 @@ header {
 
 .m-top-small {
     margin-top: 5px;
+}
+
+
+.fs_25 {
+    font-size: 25px;
 }
 
 /* #endregion Utility */
@@ -76,7 +87,7 @@ header {
 main {
     background-color: black;
     width: 100%;
-    height: calc(100vh - 100px); 
+    height: calc(100vh - 130px); 
     justify-content: center;
     align-items: center;  
 }
@@ -87,8 +98,8 @@ main {
 }
 
 .user_card {
-    width: 182px;
-    height: 120px;
+    width: 180px;
+    height: 110px;
     background-color: blue;
     background-image: url(https://lh3.googleusercontent.com/4mVNVUybMXXJ5k-PuXHwqwBFDLUZbAuSxa7xcypndKhFZ9RPEGVcoXpU9mLQL6lGg3z3Cvp5pJFWDXwKiYDPWOH9zQ=w640-h400-e365-rj-sc0x00ffffff);
     background-size: cover;
@@ -109,5 +120,62 @@ main {
 
 /* #endregion Main */
 
+/* #region Footer */
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: var(--dark);
+    justify-content: space-between;
+}
+
+.commands_left {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.commands_center {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.commands_right {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.commands_left span,
+.commands_center span,
+.commands_right span {
+    color: var(--lighter);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.end_meeting {
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.end_meeting>a {
+    color: var(--text);
+}
+
+.active {
+    color: var(--share);
+    font-size: 30px;
+}
+
+
+
+/* #endregion Footer */
 
 
