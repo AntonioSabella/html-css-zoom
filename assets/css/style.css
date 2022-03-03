@@ -17,8 +17,9 @@
 
 header {
     background-color: var(--darker);
-    height: 80px;
+    height: 60px;
 }
+
 
 
 
@@ -30,14 +31,19 @@ header {
     display: flex;
 }
 
+.column-gap_users {
+    column-gap: 5px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
 .m-top-small {
     margin-top: 5px;
 }
 
-
-
 /* #endregion Utility */
-
 
 /* #region Header */
 
@@ -65,9 +71,41 @@ header {
 
 /* #endregion Header */
 
-
-
 /* #region Main */
+
+main {
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 100px); 
+    justify-content: center;
+    align-items: center;  
+}
+
+.container {
+    width: 1300px;
+    height: 600px;
+}
+
+.user_card {
+    width: 182px;
+    height: 120px;
+    background-color: blue;
+    background-image: url(https://lh3.googleusercontent.com/4mVNVUybMXXJ5k-PuXHwqwBFDLUZbAuSxa7xcypndKhFZ9RPEGVcoXpU9mLQL6lGg3z3Cvp5pJFWDXwKiYDPWOH9zQ=w640-h400-e365-rj-sc0x00ffffff);
+    background-size: cover;
+    position: relative;
+}
+
+.name_banner {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    height: 20px;
+    font-size: 14px;
+    padding: 0.1rem 0;
+    color: var(--light);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 /* #endregion Main */
 
