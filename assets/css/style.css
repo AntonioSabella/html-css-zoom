@@ -1,6 +1,6 @@
 :root {
     --darker: black;
-    --dark: grey;
+    --dark: rgb(104, 103, 103);
     --light: lightgray;
     --lighter: white;
     --share: green;
@@ -15,4 +15,61 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: var(--darker);
+    height: 80px;
+}
+
+
+
 /* #endregion Common */
+
+/* #region Utility */
+
+.flex {
+    display: flex;
+}
+
+.m-top-small {
+    margin-top: 5px;
+}
+
+
+
+/* #endregion Utility */
+
+
+/* #region Header */
+
+.options {
+    color: var(--light);
+    font-size: 15px;
+    font-weight: lighter;
+    justify-content: flex-end;
+    column-gap: 8px;
+}
+
+.options span {
+    display: inline-block;
+    padding: 0.3rem;
+    background-color: var(--dark);
+    border-radius: 5px;
+    line-height: 15px;
+}
+
+.options i {
+    color: var(--light);
+    vertical-align: middle;
+} 
+
+
+/* #endregion Header */
+
+
+
+/* #region Main */
+
+/* #endregion Main */
+
+
+
